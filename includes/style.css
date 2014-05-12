@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+body{
+	background: #666;
+	color: #999;
+	font-size: 18pt;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#main{
+	background: #FFF;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/* Menu */
+#header{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+#header ul{
+	list-style: none;
+	color: #CCC;
+	text-align: center;
+	background: #666;
+	padding: 0;
+	height: 55px;
+	margin: 0;
+	padding: 0px;
+	width: ;
+}
+
+#header ul li{
+	width: 200px;
+	height: 35px;
+	margin: 0;
+	padding: 10px 0;
+	float: left;
+	background: #666;
+	color: inherit;
+	position: relative;
+	text-align: center;
+}
+
+#header ul li ul{
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+	position: absolute;
+	left: 0;
+	top: 100%;
+}
+
+#header ul li ul li{
+	text-align:left;
+	min-width: 200px;
+	width: 100%;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	background: #333;
+	font-size: 14pt;
+	//border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	white-space: nowrap;
+}
+
+#header ul li ul li:hover{
+	background: #666;
+	color: #FFF;
+}
+#header ul li:hover{
+	background: #333;
+	color: #FFF;
+	cursor: default;
+	transition:all 0.1s;
+}
+
+#header ul li:hover > ul li{
+	visibility: visible;
+	cursor: default;
+}
+
+#header a, a:active a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Content */
+
+#content{
+	margin: 10px 0;
+	text-align: center;
+}
+
+.org{
+	text-align: center;
+	width: 200px;
+	position: relative;
+	left: 0;
+}
