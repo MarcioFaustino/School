@@ -1,0 +1,22 @@
+Site Escola - Escola Básica e Secundária Passos Manuel
+
+Menu
+	- Inicio
+	- EBS Passos Manuel
+		- Orgãos de Gestão
+		- História
+		- Espaços
+		- Serviços
+		- Parcerias e Protocolos
+		- Arquivo Histórico e Documentos
+	- Alunos
+		- Turmas, Horários e Pautas
+		- Manuais
+		- Quadro de Mérito e Excelência
+		- Calendário Exames/Provas
+		- Atividades
+		- Clubes
+	- Associações
+		- Associação de Pais e Encarregados de Educação
+		- Associação de Estudantes
+		- Associação de Antigos Alunos
